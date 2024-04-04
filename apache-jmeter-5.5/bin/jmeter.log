@@ -1,0 +1,94 @@
+2024-04-04 10:14:37,544 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2024-04-04 10:14:37,560 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2024-04-04 10:14:37,560 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2024-04-04 10:14:37,560 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
+2024-04-04 10:14:37,560 INFO o.a.j.JMeter: Version 5.5
+2024-04-04 10:14:37,560 INFO o.a.j.JMeter: java.version=21.0.2
+2024-04-04 10:14:37,560 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2024-04-04 10:14:37,560 INFO o.a.j.JMeter: os.name=Windows 11
+2024-04-04 10:14:37,560 INFO o.a.j.JMeter: os.arch=amd64
+2024-04-04 10:14:37,560 INFO o.a.j.JMeter: os.version=10.0
+2024-04-04 10:14:37,560 INFO o.a.j.JMeter: file.encoding=UTF-8
+2024-04-04 10:14:37,560 INFO o.a.j.JMeter: java.awt.headless=null
+2024-04-04 10:14:37,560 INFO o.a.j.JMeter: Max memory     =1073741824
+2024-04-04 10:14:37,560 INFO o.a.j.JMeter: Available Processors =12
+2024-04-04 10:14:37,576 INFO o.a.j.JMeter: Default Locale=English (EN)
+2024-04-04 10:14:37,576 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2024-04-04 10:14:37,576 INFO o.a.j.JMeter: JMeterHome=D:\jmeter\apache-jmeter-5.5
+2024-04-04 10:14:37,576 INFO o.a.j.JMeter: user.dir  =D:\jmeter\apache-jmeter-5.5\bin
+2024-04-04 10:14:37,576 INFO o.a.j.JMeter: PWD       =D:\jmeter\apache-jmeter-5.5\bin
+2024-04-04 10:14:37,576 INFO o.a.j.JMeter: IP: 192.168.128.185 Name: DESKTOP-382DRSQ FullName: DESKTOP-382DRSQ
+2024-04-04 10:14:37,576 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2024-04-04 10:14:37,687 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2024-04-04 10:14:38,608 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=windows_11-84593c4cbff41f2cf7d847de2eb02308-gui
+2024-04-04 10:14:39,974 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-04 10:14:39,974 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-04 10:14:39,974 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-04 10:14:39,974 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-04 10:14:39,974 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-04-04 10:14:39,974 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-04-04 10:14:41,626 INFO o.j.r.PluginManager: Plugins Status: [bzm-parallel=0.12, jpgc-plugins-manager=1.10, jmeter-core=5.5, jmeter-ftp=5.5, jmeter-http=5.5, jmeter-jdbc=5.5, jmeter-jms=5.5, jmeter-junit=5.5, jmeter-java=5.5, jmeter-ldap=5.5, jmeter-mail=5.5, jmeter-mongodb=5.5, jmeter-native=5.5, jmeter-tcp=5.5, jmeter-components=5.5]
+2024-04-04 10:14:45,455 INFO o.a.j.s.FileServer: Default base='D:\jmeter\apache-jmeter-5.5\bin'
+2024-04-04 10:14:45,471 INFO o.a.j.g.a.Load: Loading file: D:\jmeter\apache-jmeter-5.5\bin\examples\icustoms_1.jmx
+2024-04-04 10:14:45,471 INFO o.a.j.s.FileServer: Set new base='D:\jmeter\apache-jmeter-5.5\bin\examples'
+2024-04-04 10:14:45,586 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2024-04-04 10:14:45,596 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2024-04-04 10:14:45,598 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2024-04-04 10:14:45,600 INFO o.a.j.s.SaveService: Loading file: D:\jmeter\apache-jmeter-5.5\bin\examples\icustoms_1.jmx
+2024-04-04 10:14:45,638 WARN o.j.r.p.TestPlanAnalyzer: Cannot parse file: D:\jmeter\apache-jmeter-5.5\bin\examples\icustoms_1.jmx
+org.xml.sax.SAXParseException: Character reference "&#x0" is an invalid XML character.
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source) ~[xercesImpl-2.12.2.jar:?]
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source) ~[xercesImpl-2.12.2.jar:?]
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:122) ~[?:?]
+	at org.jmeterplugins.repository.plugins.TestPlanAnalyzer.getNodeListWithClassNames(TestPlanAnalyzer.java:130) ~[jmeter-plugins-manager-1.10.jar:?]
+	at org.jmeterplugins.repository.plugins.TestPlanAnalyzer.analyze(TestPlanAnalyzer.java:37) ~[jmeter-plugins-manager-1.10.jar:?]
+	at org.jmeterplugins.repository.plugins.PluginSuggester.analyzeTestPlan(PluginSuggester.java:51) ~[jmeter-plugins-manager-1.10.jar:?]
+	at org.jmeterplugins.repository.plugins.PluginSuggester.findPluginsToInstall(PluginSuggester.java:44) ~[jmeter-plugins-manager-1.10.jar:?]
+	at org.jmeterplugins.repository.plugins.PluginSuggester.checkAndSuggest(PluginSuggester.java:28) ~[jmeter-plugins-manager-1.10.jar:?]
+	at org.jmeterplugins.repository.logging.LoggerAppender.append(LoggerAppender.java:33) ~[jmeter-plugins-manager-1.10.jar:?]
+	at org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:161) ~[log4j-core-2.17.2.jar:2.17.2]
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:134) ~[log4j-core-2.17.2.jar:2.17.2]
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:125) ~[log4j-core-2.17.2.jar:2.17.2]
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:89) ~[log4j-core-2.17.2.jar:2.17.2]
+	at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:675) ~[log4j-core-2.17.2.jar:2.17.2]
+	at org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent(LoggerConfig.java:633) ~[log4j-core-2.17.2.jar:2.17.2]
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:616) ~[log4j-core-2.17.2.jar:2.17.2]
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:552) ~[log4j-core-2.17.2.jar:2.17.2]
+	at org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:82) ~[log4j-core-2.17.2.jar:2.17.2]
+	at org.apache.logging.log4j.core.Logger.log(Logger.java:161) ~[log4j-core-2.17.2.jar:2.17.2]
+	at org.apache.logging.log4j.spi.AbstractLogger.tryLogMessage(AbstractLogger.java:2205) ~[log4j-api-2.17.2.jar:2.17.2]
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessageTrackRecursion(AbstractLogger.java:2159) ~[log4j-api-2.17.2.jar:2.17.2]
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessageSafely(AbstractLogger.java:2142) ~[log4j-api-2.17.2.jar:2.17.2]
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessage(AbstractLogger.java:2034) ~[log4j-api-2.17.2.jar:2.17.2]
+	at org.apache.logging.log4j.spi.AbstractLogger.logIfEnabled(AbstractLogger.java:1899) ~[log4j-api-2.17.2.jar:2.17.2]
+	at org.apache.logging.slf4j.Log4jLogger.info(Log4jLogger.java:184) ~[log4j-slf4j-impl-2.17.2.jar:2.17.2]
+	at org.apache.jmeter.save.SaveService.loadTree(SaveService.java:425) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.gui.action.Load.loadProjectFile(Load.java:129) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.gui.action.Load.loadProjectFile(Load.java:101) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.gui.action.LoadRecentProject.doActionAfterCheck(LoadRecentProject.java:71) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.gui.action.AbstractActionWithNoRunningTest.doAction(AbstractActionWithNoRunningTest.java:44) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:87) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.gui.action.ActionRouter.lambda$actionPerformed$0(ActionRouter.java:69) ~[ApacheJMeter_core.jar:5.5]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:720) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:714) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87) ~[?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:742) ~[?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) ~[?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) ~[?:?]
+2024-04-04 10:14:45,662 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2024-04-04 10:14:45,663 INFO o.a.j.p.h.c.CacheManager: Will only cache the following methods: [GET]
+2024-04-04 10:14:45,786 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2024-04-04 10:14:45,786 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file D:\jmeter\apache-jmeter-5.5\bin\proxyserver.jks
+2024-04-04 10:14:45,786 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-04-04 10:14:45,786 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2024-04-04 10:14:45,786 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-04-04 10:14:45,786 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-04-04 10:14:47,010 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2024-04-04 10:14:47,120 INFO o.a.j.s.FileServer: Set new base='D:\jmeter\apache-jmeter-5.5\bin\examples'
